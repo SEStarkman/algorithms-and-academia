@@ -1,8 +1,12 @@
+# Insertion sort runtime:
+# Worst Case: O(n^2)
+# Best Case: Ω(n)
+# Average Case: θ(n^2)
+
 def insertion_sort(arr):
     for i in range(1, len(arr)):
 
         key = arr[i]
-
         j = i - 1
 
         while key < arr[j]:
